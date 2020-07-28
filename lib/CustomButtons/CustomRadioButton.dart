@@ -72,7 +72,7 @@ class _CustomRadioButtonState extends State<CustomRadioButton> {
     super.initState();
     if (widget.defaultSelected != null) {
       if (widget.buttonValues.contains(widget.defaultSelected))
-        _currentSelectedLabel = widget.defaultSelected;
+        _currentSelectedLabel = widget.buttonLables[widget.defaultSelected];
       else
         throw Exception("Default Value not found in button value list");
     }

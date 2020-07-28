@@ -168,7 +168,7 @@ class RadioButton extends StatelessWidget {
                     CustomRadioButton(
                       enableShape: true,
                       elevation: 0,
-                      defaultSelected: "Sunday",
+                      defaultSelected: 0,
                       enableButtonWrap: true,
                       width: 120,
                       autoWidth: false,
@@ -183,13 +183,14 @@ class RadioButton extends StatelessWidget {
                         "Sunday",
                       ],
                       buttonValues: [
-                        "Monday",
-                        "Tuesday",
-                        "Wednesday",
-                        "Thursday",
-                        "Friday",
-                        "Saturday",
-                        "Sunday",
+                        0,1,2,3,4,5,6,
+//                        "Monday",
+//                        "Tuesday",
+//                        "Wednesday",
+//                        "Thursday",
+//                        "Friday",
+//                        "Saturday",
+//                        "Sunday",
                       ],
                       radioButtonValue: (value) {
                         print(value);
